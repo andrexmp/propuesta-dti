@@ -1,23 +1,11 @@
 import { motion } from 'framer-motion'
 import { MagneticButton } from '../components/MagneticButton'
-import { heroVideoUrl } from '../config'
 
 export function Hero() {
   return (
     <section className="section relative flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 animated-gradient" aria-hidden />
-      {heroVideoUrl && (
-        <video
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
-          src={heroVideoUrl}
-          autoPlay
-          loop
-          muted
-          playsInline
-          aria-hidden
-        />
-      )}
-
+      
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
         <motion.h1
           className="text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-b from-emerald-400 to-emerald-700 text-transparent bg-clip-text"
