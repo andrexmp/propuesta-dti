@@ -155,3 +155,4 @@ export default defineConfig({
 # Test Wed Aug 13 14:10:12 -04 2025
 # Test sin video Wed Aug 13 14:14:36 -04 2025
 # Test ultra simple Wed Aug 13 14:16:28 -04 2025
+# Fix SPA routing Wed Aug 13 14:20:30 -04 2025

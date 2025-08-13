@@ -1,9 +1,27 @@
+import { Hero } from './sections/Hero'
+import { Context } from './sections/Context'
+import { Objectives } from './sections/Objectives'
+import { Initiatives } from './sections/Initiatives'
+import { AISinBarreras } from './sections/AISinBarreras'
+import { Benefits } from './sections/Benefits'
+import { Footer } from './sections/Footer'
+import { InitiativesDeep } from './sections/InitiativesDeep'
+import { Pillars } from './sections/Pillars'
+import { AlignmentMatrix } from './sections/AlignmentMatrix'
+
 function App() {
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-      <h1 style={{ color: 'green' }}>¡Hola! La página funciona</h1>
-      <p>Si puedes ver este texto, React está funcionando correctamente.</p>
-      <p>Fecha: {new Date().toLocaleString()}</p>
+    <div className="snap-container">
+      <Hero />
+      <Context />
+      <Pillars />
+      <Objectives />
+      <Initiatives />
+      <AlignmentMatrix />
+      <InitiativesDeep />
+      <AISinBarreras />
+      <Benefits />
+      <Footer />
     </div>
   )
 }
