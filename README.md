@@ -2,6 +2,8 @@
 
 Aplicación web interactiva para presentar la Transformación Estratégica DTI 2025-2026. Diseñada como una experiencia inmersiva y visualmente impactante.
 
+**🚀 Deploy automático en GitHub Pages**
+
 ## 🚀 Características
 
 - **SPA React** con scroll-snap y animaciones fluidas
