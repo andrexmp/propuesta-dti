@@ -1,0 +1,12 @@
+[
+  { "term": "SEO", "definition": "Optimización para motores de búsqueda. Mejora la visibilidad orgánica del sitio." },
+  { "term": "ROI", "definition": "Retorno de la inversión. Métrica para evaluar el rendimiento de una inversión." },
+  { "term": "SLA", "definition": "Acuerdo de nivel de servicio. Compromiso formal de calidad y tiempos de respuesta." },
+  { "term": "GIS", "definition": "Sistemas de Información Geográfica. Integración de datos espaciales para análisis y decisiones." },
+  { "term": "SSO", "definition": "Single Sign-On. Autenticación centralizada que permite acceder a múltiples sistemas con una sola sesión." },
+  { "term": "RBAC", "definition": "Role-Based Access Control. Control de acceso basado en roles para limitar permisos por perfil." },
+  { "term": "SPOC", "definition": "Single Point of Contact. Punto único de contacto para centralizar requerimientos y dar trazabilidad." },
+  { "term": "PII", "definition": "Personally Identifiable Information. Datos personales que identifican a una persona y deben protegerse." },
+  { "term": "CSP", "definition": "Content Security Policy. Política de seguridad para mitigar ataques (XSS, inyecciones) restringiendo orígenes." },
+  { "term": "DPA", "definition": "Data Processing Agreement. Acuerdo que regula el tratamiento de datos personales entre partes." }
+] 

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Paleta sugerida como CSS variables para uso no utilitario */
+:root {
+  --forest-green: #1B4332;
+  --light-green: #40916C;
+  --cream: #FDFCFB;
+  --dark-gray: #212529;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply antialiased bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100;
+}
+
+/* Contenedor principal con scroll-snap para secciones fullscreen */
+.snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100dvh;
+}
+
+.section {
+  scroll-snap-align: start;
+  min-height: 100dvh;
+}
+
+/* Cursor personalizado básico (se puede mejorar luego) */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  background: white;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+}
+
+/* Fondo con degradado animado (demo) */
+.animated-gradient {
+  background: radial-gradient(1000px 600px at 10% 10%, rgba(64,145,108,0.25), transparent 40%),
+              radial-gradient(800px 500px at 80% 20%, rgba(27,67,50,0.25), transparent 40%),
+              radial-gradient(900px 700px at 50% 80%, rgba(64,145,108,0.25), transparent 40%);
+  filter: saturate(1.2);
+}
