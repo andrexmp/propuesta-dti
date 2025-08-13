@@ -1,18 +1,11 @@
 import { Hero } from './sections/Hero'
-import { Context } from './sections/Context'
-import { Objectives } from './sections/Objectives'
-import { Initiatives } from './sections/Initiatives'
-import { AISinBarreras } from './sections/AISinBarreras'
-import { Benefits } from './sections/Benefits'
 import { Footer } from './sections/Footer'
-import { InitiativesDeep } from './sections/InitiativesDeep'
-import { Pillars } from './sections/Pillars'
-import { AlignmentMatrix } from './sections/AlignmentMatrix'
 
 function App() {
   return (
     <div className="snap-container">
       <Hero />
+      {/* Comentando temporalmente para debug
       <Context />
       <Pillars />
       <Objectives />
@@ -21,6 +14,7 @@ function App() {
       <InitiativesDeep />
       <AISinBarreras />
       <Benefits />
+      */}
       <Footer />
     </div>
   )
